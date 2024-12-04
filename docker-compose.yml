@@ -1,0 +1,8 @@
+services:
+  quiz-website:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: quiz-website:latest
+    ports:
+      - "8080:8080"
